@@ -1,33 +1,328 @@
-.App {
-  text-align: center;
+*
+{
+    
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+  z-index:-1;
+  border:0px solid red;
+}
+.hero {
+     width:100vw;
+    height: 100vh;
+  background:url('https://images.unsplash.com/photo-1429019885980-e07c0774c492?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+    color:white;
+}
+::selection {
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.chevronDown {
+    width: 5rem;
+    height: 5rem;
+    fill: #fff;
+    position: absolute;
+    bottom: 3rem;
+    cursor: pointer;
+}
+.navBar li {
+  display:inline-block;
+   
+  margin-right:30px;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.navBar ul{
+  border:0px solid red;
+  width:80%;
+  margin:auto;
+  text-align:center;
+  font-size:30px;
+  padding:20px 0px;
+   
+}
+.navBar{
+     background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
+  /*change color when scrolled*/
+     
+  color:white;
+  position:fixed;
+  z-index:2;
+  width:100vw;
+}
+ .navBar li:hover{
+  text-decoration:underline;
+}
+.home{
+   background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
+  position:relative;
+   height:100vh;
+  width:100vw;
+  z-index:10;
+   border:0px solid red;
+}
+h1{
+  
+  width:50%;
+}
+h2{
+  text-align:center;
+  margin:80px auto;
+  border-bottom:5px solid #93d7ff;
+  width:10%;
+  padding-bottom:15px;
+}
+.about-wrap{
+  font-size: 1.6rem;
+    font-family: Raleway,sans-serif;
+    letter-spacing: .5px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+   
+}
+.aboutLeft img{
+  
+  height:500px;
+   float:right;
+}
+.aboutLeft{
+   
+  
+  width:40%;
+  display:inline-block;
+  
+}
+.aboutRight{
+   
+  width:55%;
+  display:inline-block;
+  text-align:left;
+  border:0px solid red;
+}
+.bio{
+  border:0px solid green;
+  width:70%;
+  float:right;
+  font-size:1.2rem;
+  margin:50px 0px;
+  line-height:30px;
+}
+.bio p{
+  margin-bottom:10px;
+}
+.skills{
+  
+  border:0px solid black;
+  width:80%;
+  height:200px;
+  margin:auto;
+  padding:10px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skills li{
+  list-style:none;
+  display:inline-block;
+  border:0px solid red;
+  text-align:center;
+  margin-right:10px;
 }
-
-.App-link {
-  color: #61dafb;
+.skills li p{
+  border:0px solid black;
+  color:white;
+  background:grey;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .toolIcon{
+    width:80px;
+    height:80px;
+    margin-right:10px;
+    opacity:0.7;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .toolIcon:hover{
+  opacity:1;
+}
+.tools p{
+  display:none;
+}
+.tools li:hover p {
+  /* ... */
+  display:block;
+}
+.tools{
+  
+  width:80%;
+  margin:50px auto;
+  text-align:center;
+}
+.experience{
+  
+  display:flex;
+  flex-direction:column;
+}
+.exp-desc{
+   
+  width:50%;
+  display:inline-block;
+  float:right;
+  margin-top:0px;
+  font-size:1.5rem;
+}
+.q{
+  margin-top:80px;
+}
+.exp img{
+  max-width:20%;
+  max-height:300px;
+   
+}
+.mida{
+  width:100px;
+  height:60px;
+  margin-left:40px;
+}
+.midamed{
+  color:#03a9f4;
+  font-size:2rem;
+ 
+  position:relative;
+  bottom:20px;
+  display:inline-block;
+  font-family: arial;
+  font-weight:200;
+}
+.projects{
+   
+  display:grid;
+   grid-gap:0px;
+   grid-template-columns: auto auto;
+  width:70%;
+   margin:auto;
+}
+.proj{
+   border:3px solid black;
+  height:300px;
+  width:300px;
+ margin: 50px auto;
+ display:flex;
+ justify-content:center;
+}
+.proj:hover .proj-desc{
+  display:block;
+}
+.proj-desc{
+  border:0px solid red;
+  width:100%;
+  text-align:center;
+   background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 9000%);
+   color:white;
+   display:none;
+}
+.proj-desc-name{
+   
+  margin-top:100px;
+}
+.proj-desc img{
+  display:inline-block;
+  width:60px;
+  height:60px;
+}
+.proj-desc hr{
+  border:1px solid white;
+  width:50%;
+  margin:10px auto;
+}
+.calc{
+  /*background:url('https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg');
+  */ 
+  background-image:url('../src/assets/calculator.jpg');
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.tic{
+  background:url('../src/assets/tictactoe.jpg');
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.footer{
+   
+  /* background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);*/
+background:#93d7ff;
+  padding:30px 0px;
+  color:white;
+}
+.leftFoot{
+  border:0px solid red;
+  width:45%;
+  display:inline-block;
+  list-style:none;
+}
+.leftFoot h3{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:15px;
+    
+}
+.rightFoot h3{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:15px;
+   
+  
+}
+ 
+.phone{
+  display:inline-block;
+  margin-right:30px;
+   
+}.email{
+  display:inline-block;
+}
+.cont{
+  border:0px solid black;
+  width:80%;
+  margin:auto;
+  list-style:none;
+  font-size:1.5rem;
+  text-align:center;
+  margin-bottom:30px;
+}
+.rightFoot{
+  border:0px solid red;
+  width:40%;
+  display:inline-block;
+  float:right;
+  list-style:none;
+}
+.socialIcons img{
+  width:30px;
+  margin-right:15px;
+  
+}
+.socialIcons{
+  border:0px solid black;
+  width:50%;
+  margin:auto;
+  text-align:center;
+}
+.copyright{
+  border:0px solid red;
+  margin-left:50px;
 }
