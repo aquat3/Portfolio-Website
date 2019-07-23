@@ -80,6 +80,8 @@ svg:not(:root) {
 h1{
   
   width:50%;
+  line-height: 1.5;
+
 }
 h2{
   text-align:center;
@@ -217,7 +219,7 @@ h2{
    margin:auto;
 }
 .proj{
-   border:3px solid black;
+   border:5px solid #93d7ff;
   height:300px;
   width:300px;
  margin: 50px auto;
@@ -243,6 +245,7 @@ h2{
   display:inline-block;
   width:60px;
   height:60px;
+  filter: brightness(0) invert(1);
 }
 .proj-desc hr{
   border:1px solid white;
@@ -257,7 +260,17 @@ h2{
    background-size: 100% 100%;
 }
 .tic{
-  background:url('../src/assets/tictactoe.jpg');
+  background:url('../src/assets/TicTacToe.jpg');
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.quotes{
+background:url('../src/assets/quotes.jpg');
+background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.portfolio{
+  background:url('../src/assets/portfoliopic.png');
   background-repeat: no-repeat;
    background-size: 100% 100%;
 }
