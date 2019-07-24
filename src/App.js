@@ -314,9 +314,9 @@ class Projects extends React.Component{
     return(
     <div className='projects'>
         <div className='proj calc'>
-<div className='proj-desc'>
+<div className='proj-desc'><a href='https://codepen.io/aquat3/full/xmQrXY' target='_blank'>
   <div className='proj-desc-name'>
-  <h3><a href='https://codepen.io/aquat3/full/xmQrXY' target='_blank'>jQuery Calculator</a></h3>
+  <h3>jQuery Calculator</h3>
   <hr/>
   <img  alt='html icon'
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -324,13 +324,13 @@ class Projects extends React.Component{
              src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img  alt='jQuery icon'
              src='https://flaticons.net/gd/makefg.php?i=icons/Brand%20Identity/Logo-JQuery.png&r=255&g=255&b=255'/>
-  </div>
+  </div></a>
 </div>
         </div>
          <div className='proj tic'>
-         <div className='proj-desc'>
+         <div className='proj-desc'><a href='https://codepen.io/aquat3/full/exeVeR' target='_blank'>
   <div className='proj-desc-name'>
-  <h3><a href='https://codepen.io/aquat3/full/exeVeR' target='_blank'>Tic Tac Toe</a></h3>
+  <h3>Tic Tac Toe</h3>
   <hr/>
   <img  alt='html icon'
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -338,13 +338,13 @@ class Projects extends React.Component{
              src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img  alt='JavScript icon'
              src='https://i.ibb.co/Y0w9cXj/js.png'/>
-  </div>
+  </div></a>
 </div>
            </div>
         <div className='proj quotes'>
-        <div className='proj-desc'>
+        <div className='proj-desc'><a href='https://codepen.io/aquat3/full/QPMxNL' target='_blank'>
   <div className='proj-desc-name'>
-  <h3><a href='https://codepen.io/aquat3/full/QPMxNL' target='_blank'>Random Quotes</a></h3>
+  <h3>Random Quotes</h3>
   <hr/>
   <img  alt='html icon'
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -352,14 +352,14 @@ class Projects extends React.Component{
              src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img  alt='JavScript icon'
              src='https://i.ibb.co/Y0w9cXj/js.png'/>
-  </div>
+  </div></a>
 </div>
         </div>
          <div className='proj portfolio'>
-          
-        <div className='proj-desc'>
+       
+        <div className='proj-desc'>  <a href='#'>
   <div className='proj-desc-name'>
-  <h3><a href='#'>Portfolio Website</a></h3>
+  <h3>Portfolio Website</h3>
   <hr/>
   <img  alt='html icon'
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -367,7 +367,7 @@ class Projects extends React.Component{
              src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img  alt='JavScript icon'
              src='https://png.pngtree.com/svg/20170807/react_1353124.png'/>
-  </div>
+  </div></a>
 </div>
          </div>
     </div>
