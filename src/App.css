@@ -67,7 +67,7 @@ svg:not(:root) {
 .navBar{
     /* background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
   change color when scrolled*/
-     
+  font-family: 'Lato', sans-serif;
   color:white;
   position:fixed;
   z-index:2;
@@ -113,7 +113,9 @@ h2{
 }
 .aboutLeft img{
   
-  height:500px;
+  /*height:500px;*/
+  min-height:250px;
+  width:70%;
    float:right;
 }
 .aboutLeft{
@@ -339,8 +341,12 @@ filter: brightness(0) invert(1);
   display:inline-block;
   margin-right:30px;
    
+   position:relative;
+   bottom:7px;
 }.email{
   display:inline-block;
+  position:relative;
+   bottom:10px;
 }
 .cont{
   border:0px solid black;
@@ -354,6 +360,9 @@ filter: brightness(0) invert(1);
 .cont a{
   color:white;
   text-decoration:none;
+}
+.cont a:hover{
+  text-decoration:underline;
 }
 .rightFoot{
   border:0px solid red;
