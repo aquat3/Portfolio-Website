@@ -4,18 +4,41 @@ import './App.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import { tsConstructorType } from '@babel/types';
 
 class Nav extends React.Component {
-  render() {
+  constructor(props){
+    super(props);
+    this.state={scr:''}
+  }
+  
+  listenScrollEvent = e => {
+    if (window.scrollY > 0) {
+      this.setState({scr: 'linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%)'})
+    }  else{
+      this.setState({scr:''})
+    }
+  }
+ 
+  
+componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
+  
+   render() {
+  
+   
     return (
-    <div className='navBar'>
+    <div style={{background: this.state.scr}} className='navBar'>
+      
       <ul>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Experience</a></li>
-        <li><a>Projects</a></li>
-        <li><a>Contact</a></li>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#projects'>Projects</a></li>
+         
+        <li><a href='#contact'> Contact</a></li>
         </ul>
       
       
@@ -179,14 +202,15 @@ class Home extends React.Component{
         
       <ScrollAnimation animateIn='slideInRight' duration={0.3}>
         <p>Hello World, my name is Tofik Mahdi. I am a senior at the Univeristy of 
-          Maryland graduating fall 2019.I love the internet and I plan on 
+          Maryland graduating in Fall 2019.I love the internet and I plan on 
           leaving a digital footprint in it.</p></ScrollAnimation >
         
-        <ScrollAnimation animateIn='slideInLeft' duration={0.3}><p>I started coding since i was 17 but I eventually picked up web development 
+        <ScrollAnimation animateIn='slideInLeft' duration={0.3}><p>I started coding since I was 17 in C++ but I eventually picked up web development 
           a couple years later after being curious as to how websites work and
-           i fell in love. After discovering web dev i realized this is  all i wanted 
+           I fell in love. After discovering web dev I realized this is What I wanted 
            to do for my career.</p></ScrollAnimation >
-        <ScrollAnimation animateIn='slideInRight' duration={0.3}> <p>My skills are currently more geared towards front end but i plan on picking up back end tools in the future. I will take a course on back end development with php and mysql this fall so ill have some knowledge by the time i graduate.</p>
+        <ScrollAnimation animateIn='slideInRight' duration={0.3}>
+           <p>My skills are currently more geared towards Front End but I plan on picking up back end tools in the future. I will take a course on Back End development with PHP and MySQL this fall so I will have some knowledge by the time I graduate.</p>
         </ScrollAnimation >
         </div>
     
@@ -277,13 +301,19 @@ class Experience extends React.Component{
     return(
     <div className='experience'>
         <div className='exp'>
+        <a href='https://www.agencyq.com/' target='_blank'>
         <img src='https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1397200679/0b7dc65611a21bbd74ccd6c3ae406de6.png'/>
-          <p className='exp-desc q'>While at agencyQ i learned how to work in an agile environment and was involved in redesigning the company homepage using the hubspot  cms, and i also assisten other front end developers with their projects via pair programming.</p>
+          </a>
+          <p className='exp-desc q'>While at agencyQ I learned how to work in an agile environment 
+          and was involved in redesigning the company homepage using the Hubspot  CMS, 
+          and I also assisted other Front End developers with their projects via pair programming.</p>
+          
         </div>  
          <div className='exp'>
-        
-        <a > <img className='mida' src='https://midamedical.org/static/media/logo.8b7d81c0.png'/>
-          <span className='midamed'> MIDA</span> </a> <p className='exp-desc'>While at mida i helped modify the company website written in react, wrote some unit tests, and i helped design a user based database system for the website.</p>
+        <a href='https://midamedical.org/' target='_blank'>
+        <img className='mida' src='https://midamedical.org/static/media/logo.8b7d81c0.png'/>
+         
+          <span className='midamed'> MIDA</span></a>  <p className='exp-desc'> I worked in a remote team communicating via Slack and Github. I helped modify the company website written in React.js, wrote some unit tests, and I helped design an account-based database system for the website.</p>
         </div>  
     </div>
     );
@@ -301,7 +331,7 @@ class Projects extends React.Component{
         <div className='proj calc'>
 <div className='proj-desc'>
   <div className='proj-desc-name'>
-  <h3>jQuery Calculator</h3>
+  <h3><a href='https://codepen.io/aquat3/full/xmQrXY' target='_blank'>jQuery Calculator</a></h3>
   <hr/>
   <img 
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -315,28 +345,28 @@ class Projects extends React.Component{
          <div className='proj tic'>
          <div className='proj-desc'>
   <div className='proj-desc-name'>
-  <h3>Tic Tac Toe</h3>
+  <h3><a href='https://codepen.io/aquat3/full/exeVeR' target='_blank'>Tic Tac Toe</a></h3>
   <hr/>
   <img 
-             src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
+             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
              <img 
-             src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
+             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img 
-             src='https://newroom-media.de/wp-content/uploads/2018/04/Javascript_badge.png?x48919'/>
+             src='https://i.ibb.co/Y0w9cXj/js.png'/>
   </div>
 </div>
            </div>
         <div className='proj quotes'>
         <div className='proj-desc'>
   <div className='proj-desc-name'>
-  <h3>Random Quote Generator</h3>
+  <h3><a href='https://codepen.io/aquat3/full/QPMxNL' target='_blank'>Random Quote Generator</a></h3>
   <hr/>
   <img 
-             src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
+             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
              <img 
-             src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
+             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img 
-             src='https://newroom-media.de/wp-content/uploads/2018/04/Javascript_badge.png?x48919'/>
+             src='https://i.ibb.co/Y0w9cXj/js.png'/>
   </div>
 </div>
         </div>
@@ -344,12 +374,12 @@ class Projects extends React.Component{
           
         <div className='proj-desc'>
   <div className='proj-desc-name'>
-  <h3>Portfolio Website</h3>
+  <h3><a href='#'>Portfolio Website</a></h3>
   <hr/>
   <img 
-             src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
+             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
              <img 
-             src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
+             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img 
              src='https://png.pngtree.com/svg/20170807/react_1353124.png'/>
   </div>
@@ -369,15 +399,21 @@ class Footer extends React.Component{
  
    render(){
     return(
-    <div className='footer'>
+    <div id='contact' className='footer'>
         <ul className='leftFoot'>
            
           <li><h3>Contact</h3>
              
 </li>
           <li className='cont'>
+          <a href="tel:240-704-2290">
+          <img src='https://www.rightnetworks.com/assets/phone-icon-circle-white.png'/>
           <a className='phone'>240-704-2290</a>
+          </a>
+          <a href="mailto:aquat3@gmail.com">
+          <img src='https://unite-production.s3.amazonaws.com/tenants/firstlutheran/pictures/113451/stjem_orig.png'/>
           <a className='email'>aquat3@gmail.com</a>
+          </a>
           </li>
             <li className='copyright'>Copyright © Tofik Mahdi 2019
 </li>
@@ -387,10 +423,17 @@ class Footer extends React.Component{
 </li>
            <li className='socialIcons'>
            
-           <img src='https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png'/>
+          <a href='https://codepen.io/aquat3/' target='_blank'> 
+          <img src='https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png'/>
+           </a>
+
+            <a href='https://github.com/aquat3/' target='_blank'>
             <img src='https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg'/>
-              <img src='https://www.ers-inc.com/wp-content/uploads/2016/09/linkedin-3-512.png'/>
-              <img src=''/>
+              </a>
+           
+             <a href='https://www.linkedin.com/in/tofik-mahdi-280b5a139/' target='_blank'>
+              <img src='https://www.igbaffiliate.com/sites/all/themes/clarion_theme/images/linkedin.png'/>
+               </a>
            </li>
         </ul>
     </div>
@@ -411,14 +454,18 @@ class Portfolio extends React.Component{
     return(
     <div>
          <Home/>
-        <h2>About Me</h2>
+      
+         <div className='main-content'>
+        <h2 id='about'>About Me</h2>
        <About/>
-        <h2>Skills</h2>
+        <h2 id='skills'>Skills</h2>
         <Skills/>
-        <h2>Experience</h2>
+        <h2 id='experience'>Experience</h2>
         <Experience/>
-        <h2>Projects</h2>
+        <h2 id='projects'>Projects</h2>
         <Projects/>
+        </div>
+       
         <Footer/>
     </div>
     );

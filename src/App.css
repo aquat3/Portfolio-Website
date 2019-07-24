@@ -16,6 +16,9 @@
     overflow: hidden;
   z-index:-1;
   border:0px solid red;
+  
+  position:fixed;
+  z-index:-1;
 }
 .hero {
      width:100vw;
@@ -57,9 +60,13 @@ svg:not(:root) {
   padding:20px 0px;
    
 }
+.navBar a{
+  color:white;
+  text-decoration:none;
+}
 .navBar{
-     background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
-  /*change color when scrolled*/
+    /* background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
+  change color when scrolled*/
      
   color:white;
   position:fixed;
@@ -70,22 +77,25 @@ svg:not(:root) {
   text-decoration:underline;
 }
 .home{
-   background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
-  position:relative;
+   /*background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%);
+ */
+   position:relative;
    height:100vh;
   width:100vw;
-  z-index:10;
+
+   
+
    border:0px solid red;
 }
 h1{
-  
+   
   width:50%;
   line-height: 1.5;
 
 }
 h2{
   text-align:center;
-  margin:80px auto;
+  margin:100px auto;
   border-bottom:5px solid #93d7ff;
   width:10%;
   padding-bottom:15px;
@@ -99,7 +109,7 @@ h2{
     flex-direction: row;
     justify-content: center;
     height: 100%;
-   
+   background:white;
 }
 .aboutLeft img{
   
@@ -118,7 +128,8 @@ h2{
   width:55%;
   display:inline-block;
   text-align:left;
-  border:0px solid red;
+   
+  padding-right:30px;
 }
 .bio{
   border:0px solid green;
@@ -131,6 +142,10 @@ h2{
 .bio p{
   margin-bottom:10px;
 }
+.main-content{
+  background:white;
+  padding-top:30px;
+}
 .skills{
   
   border:0px solid black;
@@ -138,6 +153,8 @@ h2{
   height:200px;
   margin:auto;
   padding:10px 0px;
+
+  background:white;
 }
 
 .skills li{
@@ -157,6 +174,7 @@ h2{
     height:80px;
     margin-right:10px;
     opacity:0.7;
+     
   }
   .toolIcon:hover{
   opacity:1;
@@ -173,20 +191,26 @@ h2{
   width:80%;
   margin:50px auto;
   text-align:center;
+   
 }
 .experience{
   
   display:flex;
   flex-direction:column;
 }
+  
 .exp-desc{
    
   width:50%;
   display:inline-block;
   float:right;
   margin-top:0px;
-  font-size:1.5rem;
+  font-size:1.3rem;
+  line-height:2rem;
+  padding-right:40px;
+    
 }
+ 
 .q{
   margin-top:80px;
 }
@@ -236,6 +260,11 @@ h2{
    background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 9000%);
    color:white;
    display:none;
+}
+.proj-desc a{
+
+color:white;
+text-decoration:none;
 }
 .proj-desc-name{
    
@@ -293,6 +322,11 @@ background:#93d7ff;
   margin-bottom:15px;
     
 }
+.leftFoot img{
+width:30px;
+margin-right:15px;
+filter: brightness(0) invert(1);
+}
 .rightFoot h3{
   text-align:center;
   font-size:2rem;
@@ -310,12 +344,16 @@ background:#93d7ff;
 }
 .cont{
   border:0px solid black;
-  width:80%;
+  width:85%;
   margin:auto;
   list-style:none;
   font-size:1.5rem;
-  text-align:center;
+  text-align:left;
   margin-bottom:30px;
+}
+.cont a{
+  color:white;
+  text-decoration:none;
 }
 .rightFoot{
   border:0px solid red;
