@@ -14,7 +14,9 @@ class Nav extends React.Component {
   
   listenScrollEvent = e => {
     if (window.scrollY > 0) {
-      this.setState({scr: 'linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%)'})
+      this.setState({scr: '#93d7ff'
+       // 'linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0) 200%)'
+      })
     }  else{
       this.setState({scr:''})
     }
@@ -183,16 +185,16 @@ class Home extends React.Component{
     
       <div class='bio'>
         
-      <ScrollAnimation animateIn='slideInRight' duration={0.3}>
+      <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
         <p>Hello World, my name is Tofik Mahdi. I am a senior at the Univeristy of 
           Maryland graduating in Fall 2019. I love the internet and I plan on 
           leaving a digital footprint in it.</p></ScrollAnimation >
         
-        <ScrollAnimation animateIn='slideInRight' duration={0.3}><p>I started coding since I was 17 in C++, but I eventually picked up web development 
+        <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}><p>I started coding since I was 17 in C++, but I eventually picked up web development 
           a couple years later after being curious as to how websites work and
            I fell in love. After discovering web dev I realized this is What I wanted 
            to do for my career.</p></ScrollAnimation >
-        <ScrollAnimation animateIn='slideInRight' duration={0.3}>
+        <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
            <p>My skills are currently more geared towards Front End but I plan on picking up back end tools in the future. I will take a course on Back End development with PHP and MySQL this Fall so I will have some knowledge by the time I graduate.</p>
         </ScrollAnimation >
         </div>
