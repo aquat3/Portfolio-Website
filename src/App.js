@@ -9,9 +9,17 @@ import { tsConstructorType } from '@babel/types';
 class Nav extends React.Component {
   constructor(props){
     super(props);
-    this.state={scr:'',menu:'none'}
+    this.state={scr:'',menu:'none',nav:'none'}
+    this.handleClick=this.handleClick.bind(this);
+    this.handleClose=this.handleClose.bind(this);
   }
-  
+  handleClick(e){
+     
+    this.setState({menu:'block',nav:'none'})
+  }
+  handleClose(e){
+    this.setState({menu:'none',nav:'block'})
+  }
   listenScrollEvent = e => {
     if (window.scrollY > 0) {
       this.setState({scr: '#93d7ff'
@@ -26,27 +34,32 @@ class Nav extends React.Component {
 componentDidMount() {
     window.addEventListener('scroll', this.listenScrollEvent)
   }
+  componentWillMount(){
+   if (window.screen.width<=650)
+    this.setState({nav:'block'});
+  }
   
    render() {
   
    
     return (
     <div style={{background: this.state.scr}} className='navBar'>
-      <div className='menu'>
-      <button onClick={function(){this.setState({menu:'block'})} } className='menuButton'>Menu</button>
+      
+      <div style={{display:this.state.nav}} className='menu'>
+      <button onClick={this.handleClick} className='menuButton'>Menu</button>
       </div>
       
       <div className='fullMenu' style={{display:this.state.menu}}> 
       
       <ul>
-        <li><button onClick={ function(){this.setState({menu:'block'})} }className='close'>X</button></li>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#skills'>Skills</a></li>
-        <li><a href='#experience'>Experience</a></li>
-        <li><a href='#projects'>Projects</a></li>
+        <li><button onClick={this.handleClose} className='close'>X</button></li>
+        <li><a onClick={this.handleClose} href='#'>Home</a></li>
+        <li><a onClick={this.handleClose} href='#about'>About</a></li>
+        <li><a onClick={this.handleClose} href='#skills'>Skills</a></li>
+        <li><a onClick={this.handleClose} href='#experience'>Experience</a></li>
+        <li><a onClick={this.handleClose} href='#projects'>Projects</a></li>
          
-        <li><a href='#contact'> Contact</a></li>
+        <li><a onClick={this.handleClose}  href='#contact'> Contact</a></li>
         
         </ul>
 
@@ -126,9 +139,6 @@ class Hero extends React.Component {
 	    
 	    	"Be yourself; everyone else is already taken.",
 	    	 
-	    
-	    
-	    	"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
 	    	 
 	    
 	    "Always remember that you are absolutely unique. Just like everyone else.",
@@ -143,7 +153,7 @@ class Hero extends React.Component {
 	    	 
 	   "A day without sunshine is like, you know, night.",
 	     
-	   "My grandmother started walking five miles a day when she was sixty. She's ninety-seven now, and we don't know where the hell she is.",
+	   
 	    	 
 	   "Don't sweat the petty things and don't pet the sweaty things.",
 	    	 

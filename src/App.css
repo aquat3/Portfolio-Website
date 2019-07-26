@@ -64,7 +64,7 @@ svg:not(:root) {
 }
 .menu{
   display:none;
-   
+   border:0px solid red;
 }
 .navBar a{
   color:white;
@@ -414,8 +414,10 @@ h2{
   padding-bottom:15px;
 }
 h1{
-  font-size:1.5rem;
-   
+  font-size:1.7rem;
+   border:0px solid red;
+   width:80%;
+   line-height:3rem;
   text-align:center;
 }
 
@@ -449,18 +451,19 @@ h1{
 } 
 .aboutRight{
    
-  width:100%;
+  width:80%;
   display:inline-block;
-  text-align:center;
-   
+  text-align:left;
+    
+   margin:auto;
   padding-right:0px;
 }
 .bio{
   border:0px solid green;
   width:100%;
-  float:right;
-  font-size:1rem;
-  margin:50px 0px;
+   
+  font-size:1.1rem;
+  margin:50px auto;
   line-height:30px;
 }
 .tools{
@@ -479,18 +482,24 @@ h1{
   text-align:center;
 }
 .exp-desc{
-   
-  width:100%;
-  margin-bottom:100px;
+   border:0px solid red;
+  width:80%;
+  padding-bottom:100px;
   margin-top:0px;
+  margin:auto;
    padding-right:0px;
    font-size:1rem;
-    
+     
 }
 .exp img{
    
    margin-bottom:auto;
    max-width:100%;
+}
+.midamed{
+   
+  margin-right:45px;
+  margin-bottom:100px;
 }
 .footer{
   display:flex;
@@ -531,9 +540,9 @@ width:100%;
 }
 .menu{
   display:block;
-   border:1px solid red;
+    
    text-align:center;
-
+padding:10px;
 }
 .menuButton{
   border:6px solid white;
@@ -551,7 +560,7 @@ width:100%;
 
 .fullMenu{
   display:block;
-  border:1px solid black;
+  border:0px solid black;
   height:100vh;
   background:#93d7ff;
   display:flex;
@@ -561,7 +570,7 @@ width:100%;
 }
 .fullMenu ul{
   display:block;
-  border:1px solid red;
+  border:0px solid red;
   font-size:3rem;
   text-align:center;
 }
@@ -576,7 +585,5 @@ width:100%;
   border:5px solid white;
   width:30%;
 }
- .fullMenu a:hover{
-   
- }
+  
 }
