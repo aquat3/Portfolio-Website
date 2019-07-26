@@ -9,7 +9,7 @@ import { tsConstructorType } from '@babel/types';
 class Nav extends React.Component {
   constructor(props){
     super(props);
-    this.state={scr:''}
+    this.state={scr:'',menu:'none'}
   }
   
   listenScrollEvent = e => {
@@ -32,7 +32,25 @@ componentDidMount() {
    
     return (
     <div style={{background: this.state.scr}} className='navBar'>
+      <div className='menu'>
+      <button onClick={function(){this.setState({menu:'block'})} } className='menuButton'>Menu</button>
+      </div>
       
+      <div className='fullMenu' style={{display:this.state.menu}}> 
+      
+      <ul>
+        <li><button onClick={ function(){this.setState({menu:'block'})} }className='close'>X</button></li>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#projects'>Projects</a></li>
+         
+        <li><a href='#contact'> Contact</a></li>
+        
+        </ul>
+
+      </div>
       <ul>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -41,9 +59,11 @@ componentDidMount() {
         <li><a href='#projects'>Projects</a></li>
          
         <li><a href='#contact'> Contact</a></li>
+        
         </ul>
+        
       
-      
+
       </div>
       
       
@@ -393,16 +413,18 @@ class Footer extends React.Component{
              
 </li>
           <li className='cont'>
+         <span className='cell '>
           <a href="tel:240-704-2290">
           <img  alt='phone icon'
           src='https://www.rightnetworks.com/assets/phone-icon-circle-white.png'/>
           <a className='phone'>240-704-2290</a>
-          </a>
+          </a></span>
+          <span className='emaill'>
           <a href="mailto:aquat3@gmail.com">
           <img  alt='email icon'
           src='https://unite-production.s3.amazonaws.com/tenants/firstlutheran/pictures/113451/stjem_orig.png'/>
           <a className='email'>aquat3@gmail.com</a>
-          </a>
+          </a></span>
           </li>
             <li className='copyright'>Copyright © Tofik Mahdi 2019
 </li>
@@ -427,6 +449,8 @@ class Footer extends React.Component{
               src='https://www.igbaffiliate.com/sites/all/themes/clarion_theme/images/linkedin.png'/>
                </a>
            </li>
+           <li  className='copyright-mobile'>Copyright © Tofik Mahdi 2019
+</li>
         </ul>
     </div>
     );
