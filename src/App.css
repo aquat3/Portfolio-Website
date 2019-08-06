@@ -177,11 +177,12 @@ h2{
   text-align:center;
   margin-right:10px;
 }
-.skills li p{
+.skills li span{
   border:0px solid black;
   color:white;
   background:grey;
 }
+ 
   .toolIcon{
     width:80px;
     height:80px;
@@ -192,10 +193,10 @@ h2{
   .toolIcon:hover{
   opacity:1;
 }
-.tools p{
+.tools span{
   display:none;
 }
-.tools li:hover p {
+.tools li:hover span {
   /* ... */
   display:block;
 }
@@ -409,10 +410,18 @@ filter: brightness(0) invert(1);
 .hero{
   position:relative;
 }
-.proj:focus .proj-desc{
+/*
+.proj:hover, .proj:active .proj-desc{
+  display:block;
+   
+}*/
+.proj-desc{
   display:block;
 }
-
+.proj-desc{
+  border:1px solid black;
+  height:100%;
+}
 .projects{
    
   display:flex;
@@ -524,6 +533,10 @@ h1{
  
 width:100%;
   
+}
+.email{
+  border:0px solid red;
+  margin-right:30px;
 }
  
 .cell{

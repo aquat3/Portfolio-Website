@@ -260,27 +260,27 @@ class Skills extends React.Component{
         <li><img 
              alt='html icon'
               className='toolIcon' src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
-          <p   
-          >HTML5</p>
+          <span   
+          >HTML5</span>
         </li>
         <li><img 
               
              alt='css icon'
               className='toolIcon' src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
-          <p 
-          >CSS3</p>
+          <span 
+          >CSS3</span>
         </li>
          <li><img className='toolIcon' src='https://caleb-ellis.github.io/assets/img/js.png'  alt='JavaScript icon'/>
-           <p>JavaScript</p>
+           <span>JavaScript</span>
            </li>
          <li><img className='toolIcon' src='https://caleb-ellis.github.io/assets/img/jquery.svg'  alt='jQuery icon'/>
-         <p>jQuery</p>
+         <span>jQuery</span>
          </li>
          <li><img className='toolIcon' src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'  alt='React.js icon'/>
-         <p>React</p>
+         <span>React</span>
          </li>
          <li><img className='toolIcon' src='https://pngimg.com/uploads/mysql/mysql_PNG9.png'  alt='MySQL icon'/>
-         <p>MySQL</p>
+         <span>MySQL</span>
          </li>
               </ul>
     </div>
