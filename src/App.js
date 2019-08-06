@@ -195,7 +195,7 @@ class Home extends React.Component{
   render(){
   return(
     <div className='aboutLeft'>
-   
+    
     <img  //src='https://images.unsplash.com/photo-1539418561314-565804e349c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
     src='https://i.pinimg.com/originals/84/00/1b/84001be065400e901334218eee95912e.gif'
     alt='University of Maryland Mascot'
@@ -252,41 +252,22 @@ class About extends React.Component{
 
 
 class Skills extends React.Component{
-  constructor(props){
-    super(props);
-    this.state={
-      iconLabel:{'display':'none'},iconShow:{opacity:0.7}
-    }
-   this.handleHover=this.handleHover.bind(this);
-  this.handleLeave=this.handleLeave.bind(this);
-  }
- 
-  handleHover(){
-    //this.setState({iconLabel:{'display':'block'},iconShow:{opacity:1}})
-  }
   
-  handleLeave(){
-     //this.setState({iconLabel:{'display':'none'},iconShow:{opacity:0.7}})
-  }
    render(){
     return(
     <div className='skills'>
       <ul className="tools">
-        <li><img //onMouseEnter={this.handleHover} 
-      //onMouseLeave=  {this.handleLeave}      
-             // style={this.state.iconShow} 
+        <li><img 
              alt='html icon'
               className='toolIcon' src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
-          <p   //style={this.state.iconLabel}
+          <p   
           >HTML5</p>
         </li>
         <li><img 
-              //onMouseEnter={this.handleHover} 
-     // onMouseLeave=  {this.handleLeave}      
-             // style={this.state.iconShow} 
+              
              alt='css icon'
               className='toolIcon' src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
-          <p //style={this.state.iconLabel}
+          <p 
           >CSS3</p>
         </li>
          <li><img className='toolIcon' src='https://caleb-ellis.github.io/assets/img/js.png'  alt='JavaScript icon'/>
@@ -355,7 +336,7 @@ class Projects extends React.Component{
              <img  alt='css icon'
              src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
                <img  alt='jQuery icon'
-             src='https://flaticons.net/gd/makefg.php?i=icons/Brand%20Identity/Logo-JQuery.png&r=255&g=255&b=255'/>
+             src='https://caleb-ellis.github.io/assets/img/jquery.svg'/>
   </div></a>
 </div>
         </div>
@@ -426,9 +407,10 @@ class Footer extends React.Component{
          <span className='cell '>
           <a href="tel:240-704-2290">
           <img  alt='phone icon'
-          src='https://www.rightnetworks.com/assets/phone-icon-circle-white.png'/>
+          src={require('/Users/tofik-umd/Desktop/portfolio/src/assets/phone-icon-circle-white.png')}/>
           <a className='phone'>240-704-2290</a>
           </a></span>
+           
           <span className='emaill'>
           <a href="mailto:aquat3@gmail.com">
           <img  alt='email icon'
@@ -482,14 +464,29 @@ class Portfolio extends React.Component{
          <Home/>
       
          <div className='main-content'>
-        <h2 id='about'>About Me</h2>
+         <ScrollAnimation animateOnce={true} animateIn='zoomIn' duration={0.3}>
+           <h2 id='about'>About Me</h2>
+           </ScrollAnimation>
+       
        <About/>
+
+       <ScrollAnimation animateOnce={true} animateIn='zoomIn' duration={0.3}> 
         <h2 id='skills'>Skills</h2>
+        
+
         <Skills/>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateOnce={true} animateIn='zoomIn' duration={0.3}> 
         <h2 id='experience'>Experience</h2>
+        
         <Experience/>
+        </ScrollAnimation>
+        <ScrollAnimation animateOnce={true} animateIn='zoomIn' duration={0.3}> 
         <h2 id='projects'>Projects</h2>
+        
         <Projects/>
+       </ScrollAnimation>
         </div>
        
         <Footer/>

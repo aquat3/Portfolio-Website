@@ -26,7 +26,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1429019885980-e07c0774c492?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80');
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   
+   text-align:center;
     color:white;
 }
 ::selection {
@@ -52,6 +52,10 @@ svg:not(:root) {
 }
 .fullMenu{
   display:none;
+}
+
+.fullMenu li{
+  font-size:2rem;
 }
 .navBar ul{
   border:0px solid red;
@@ -298,7 +302,7 @@ text-decoration:none;
    background-size: 100% 100%;
 }
 .tic{
-  background:url('../src/assets/TicTacToe.jpg');
+  background:url('../src/assets/tictactoe.jpg');
   background-repeat: no-repeat;
    background-size: 100% 100%;
 }
@@ -321,10 +325,14 @@ background:#93d7ff;
   width:100vw;
 }
 .leftFoot{
-  border:0px solid red;
+  border:0px solid black;
   width:45%;
   display:inline-block;
   list-style:none;
+}
+.leftFoot li{
+  border:0px solid red;
+  text-align:center;
 }
 .leftFoot h3{
   text-align:center;
@@ -397,7 +405,13 @@ filter: brightness(0) invert(1);
 .copyright-mobile{
   display:none;
 }
- @media screen and (max-width: 650px){
+ @media screen and (max-width: 800px){
+.hero{
+  position:relative;
+}
+.proj:focus .proj-desc{
+  display:block;
+}
 
 .projects{
    
@@ -586,4 +600,7 @@ padding:10px;
   width:30%;
 }
   
+.cont{
+  margin-bottom:0px;
+}
 }
