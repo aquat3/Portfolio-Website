@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .hero {
     display: flex;
     -webkit-user-select: none;
@@ -23,7 +29,7 @@
 .hero {
      width:100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1429019885980-e07c0774c492?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/assets/cherryblossom.jpeg');
    background-repeat: no-repeat;
    background-size: 100% 100%;
    text-align:center;
@@ -141,15 +147,19 @@ h2{
   display:inline-block;
   text-align:left;
    
-  padding-right:30px;
+  border:0px solid red;
+  
+    padding-right:30px;
 }
 .bio{
   border:0px solid green;
   width:70%;
   float:right;
   font-size:1.2rem;
-  margin:50px 0px;
+  margin:25px 0px;
   line-height:30px;
+  font-size:1rem;
+   
 }
 .bio p{
   margin-bottom:10px;
@@ -194,11 +204,13 @@ h2{
   opacity:1;
 }
 .tools span{
-  display:none;
+  display:block;
+  opacity:0;
 }
 .tools li:hover span {
   /* ... */
-  display:block;
+  opacity:1;
+   
 }
 .tools{
   
@@ -330,6 +342,7 @@ background:#93d7ff;
   width:45%;
   display:inline-block;
   list-style:none;
+   
 }
 .leftFoot li{
   border:0px solid red;
@@ -536,15 +549,16 @@ width:100%;
 }
 .email{
   border:0px solid red;
-  margin-right:30px;
+  margin-right:38px;
 }
  
 .cell{
    margin-bottom:10px;
   display:block;
   text-align:center;
+  font-size:1.3rem;
 }.emaill{
-   
+  font-size:1.3rem;
  margin-left:40px;
  text-align:center;
   
