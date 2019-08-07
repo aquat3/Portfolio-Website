@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "369e2dda279b75dc41e2501cbec42ed3",
+    "revision": "33ebd0d531d54bf8e767bd8c92f0fbcf",
     "url": "/Portfolio-Website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "5b43f097c6493a21ff3a",
-    "url": "/Portfolio-Website/static/css/main.0a538f48.chunk.css"
+    "revision": "9623742007afaeb25eee",
+    "url": "/Portfolio-Website/static/css/main.c3024a1a.chunk.css"
   },
   {
     "revision": "ad9acedabbd97e71092c",
     "url": "/Portfolio-Website/static/js/2.87b5dd93.chunk.js"
   },
   {
-    "revision": "5b43f097c6493a21ff3a",
-    "url": "/Portfolio-Website/static/js/main.c46fc878.chunk.js"
+    "revision": "9623742007afaeb25eee",
+    "url": "/Portfolio-Website/static/js/main.840c6d6c.chunk.js"
   },
   {
     "revision": "b02ecd064c38077ee4dc",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3e3615c0b93f47f20daa5b3890e141d",
     "url": "/Portfolio-Website/static/media/calculator.b3e3615c.jpg"
+  },
+  {
+    "revision": "3280ca3f99a0bb3a56494f671c5f2cdc",
+    "url": "/Portfolio-Website/static/media/cherryblossom.3280ca3f.jpeg"
   },
   {
     "revision": "38469b6adf4f09e975e2e03856495e9d",
