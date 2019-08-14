@@ -240,6 +240,10 @@ h2{
 .q{
   margin-top:80px;
 }
+.exp{
+   
+  margin-bottom:15px;
+}
 .exp img{
   max-width:20%;
   max-height:300px;
@@ -543,7 +547,7 @@ h1{
   justify-content: center;
 }
 .leftFoot{
- 
+  
 width:100%;
   
 }
@@ -606,7 +610,7 @@ padding:10px;
   background:#93d7ff;
   display:flex;
   justify-content:center;
-  
+  overflow:scroll;
   /* */display:none; 
 }
 .fullMenu ul{
@@ -631,3 +635,6 @@ padding:10px;
   margin-bottom:0px;
 }
 }
+
+
+ 

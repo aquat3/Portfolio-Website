@@ -305,15 +305,18 @@ class Experience extends React.Component{
         <img alt='agencyQ' src='https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1397200679/0b7dc65611a21bbd74ccd6c3ae406de6.png'/>
           </a>
           <p className='exp-desc q'>While at agencyQ I learned how to work in an agile environment 
-          and was involved in redesigning the company homepage using the Hubspot  CMS, 
-          and I also assisted other Front End developers with their projects via pair programming.</p>
+          and was involved in redesigning the company website using Hubspot  CMS.
+           I also assisted other Front End developers with their projects via pair programming, translated UX wireframes into code, and 
+           performed cross browser testing for the site.</p>
           
         </div>  
          <div className='exp'>
         <a href='https://midamedical.org/' target='_blank'>
         <img alt='MidaMedical' className='mida' src='https://midamedical.org/static/media/logo.8b7d81c0.png'/>
          
-          <span className='midamed'> MIDA</span></a>  <p className='exp-desc'> I worked in a remote team communicating via Slack and Github. I helped modify the company website written in React.js, wrote some unit tests, and I helped design an account-based database system for the website.</p>
+          <span className='midamed'> MIDA</span></a>  
+          <p className='exp-desc'>At MIDA I learned how to effectively use git for projects while working in a remote team communicating via Slack. I helped modify the company website written in React.js, wrote some unit tests, created process documentation for React components, 
+         and I helped design an account-based database system for the website.</p>
         </div>  
     </div>
     );
