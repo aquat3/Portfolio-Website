@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.83ce7f8b.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.c3fc77b6.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.c3fc77b6.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.759e652d.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.735d0ed2.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.735d0ed2.chunk.js.map",
     "runtime~main.js": "/Portfolio-Website/static/js/runtime~main.e524495c.js",
     "runtime~main.js.map": "/Portfolio-Website/static/js/runtime~main.e524495c.js.map",
     "static/css/2.5bc09813.chunk.css": "/Portfolio-Website/static/css/2.5bc09813.chunk.css",
     "static/js/2.87b5dd93.chunk.js": "/Portfolio-Website/static/js/2.87b5dd93.chunk.js",
     "static/js/2.87b5dd93.chunk.js.map": "/Portfolio-Website/static/js/2.87b5dd93.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.3e22e00f1968ac01e5d7b2c37db182b8.js": "/Portfolio-Website/precache-manifest.3e22e00f1968ac01e5d7b2c37db182b8.js",
+    "precache-manifest.f4d764f698a1081137b984cb57204fd9.js": "/Portfolio-Website/precache-manifest.f4d764f698a1081137b984cb57204fd9.js",
     "service-worker.js": "/Portfolio-Website/service-worker.js",
     "static/css/2.5bc09813.chunk.css.map": "/Portfolio-Website/static/css/2.5bc09813.chunk.css.map",
-    "static/css/main.83ce7f8b.chunk.css.map": "/Portfolio-Website/static/css/main.83ce7f8b.chunk.css.map",
+    "static/css/main.759e652d.chunk.css.map": "/Portfolio-Website/static/css/main.759e652d.chunk.css.map",
+    "static/media/React.js_logo-512.png": "/Portfolio-Website/static/media/React.js_logo-512.47ce6e77.png",
     "static/media/App.css": "/Portfolio-Website/static/media/tictactoe.2a4cddc6.jpg",
-    "static/media/phone-icon-circle-white.png": "/Portfolio-Website/static/media/phone-icon-circle-white.38469b6a.png"
+    "static/media/css3.svg": "/Portfolio-Website/static/media/css3.7415a70a.svg",
+    "static/media/html5.svg": "/Portfolio-Website/static/media/html5.a3492ddb.svg",
+    "static/media/jquery.svg": "/Portfolio-Website/static/media/jquery.563f9b60.svg",
+    "static/media/logo.8b7d81c0.png": "/Portfolio-Website/static/media/logo.8b7d81c0.8b7d81c0.png",
+    "static/media/mysql_PNG9.png": "/Portfolio-Website/static/media/mysql_PNG9.af0dad0a.png",
+    "static/media/phone-icon-circle-white.png": "/Portfolio-Website/static/media/phone-icon-circle-white.38469b6a.png",
+    "static/media/umdLogo.jpg": "/Portfolio-Website/static/media/umdLogo.c1d37b8a.jpg"
   }
 }
