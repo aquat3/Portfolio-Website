@@ -423,9 +423,27 @@ filter: brightness(0) invert(1);
 .copyright-mobile{
   display:none;
 }
- @media screen and (max-width: 800px){
+
+
+@media only screen 
+  and (max-width: 420px) 
+   {
 .hero{
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/assets/dc.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+   }
+ @media screen and (max-width: 825px){
+
+
+
+
+  .hero{
   position:relative;
+   
 }
 /*
 .proj:hover, .proj:active .proj-desc{

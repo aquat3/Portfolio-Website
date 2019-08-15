@@ -197,7 +197,7 @@ class Home extends React.Component{
     <div className='aboutLeft'>
     
     <img  //src='https://images.unsplash.com/photo-1539418561314-565804e349c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
-    src='https://i.pinimg.com/originals/84/00/1b/84001be065400e901334218eee95912e.gif'
+    src ={require('../src/assets/umdLogo.jpg')}
     alt='University of Maryland Mascot'
     />
      
@@ -261,27 +261,27 @@ class Skills extends React.Component{
       <ul className="tools">
         <li><img 
              alt='html icon'
-              className='toolIcon' src='https://caleb-ellis.github.io/assets/img/html5.svg'/>
+              className='toolIcon' src={require('../src/assets/html5.svg')}/>
           <span   
           >HTML5</span>
         </li>
         <li><img 
               
              alt='css icon'
-              className='toolIcon' src='https://caleb-ellis.github.io/assets/img/css3.svg'/>
+              className='toolIcon' src={require('../src/assets/css3.svg')} />
           <span 
           >CSS3</span>
         </li>
-         <li><img className='toolIcon' src='https://caleb-ellis.github.io/assets/img/js.png'  alt='JavaScript icon'/>
+         <li><img className='toolIcon' src={require('../src/assets/js.png')}  alt='JavaScript icon'/>
            <span>JavaScript</span>
            </li>
-         <li><img className='toolIcon' src='https://caleb-ellis.github.io/assets/img/jquery.svg'  alt='jQuery icon'/>
+         <li><img className='toolIcon' src={require('../src/assets/jquery.svg')}  alt='jQuery icon'/>
          <span>jQuery</span>
          </li>
-         <li><img className='toolIcon' src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'  alt='React.js icon'/>
+         <li><img className='toolIcon' src={require('../src/assets/React.js_logo-512.png')}  alt='React.js icon'/>
          <span>React</span>
          </li>
-         <li><img className='toolIcon' src='https://pngimg.com/uploads/mysql/mysql_PNG9.png'  alt='MySQL icon'/>
+         <li><img className='toolIcon' src={require('../src/assets/mysql_PNG9.png')}  alt='MySQL icon'/>
          <span>MySQL</span>
          </li>
               </ul>
@@ -295,14 +295,13 @@ class Skills extends React.Component{
 
 
 class Experience extends React.Component{
-  
  
    render(){
     return(
     <div className='experience'>
         <div className='exp'>
         <a href='https://www.agencyq.com/' target='_blank'>
-        <img alt='agencyQ' src='https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1397200679/0b7dc65611a21bbd74ccd6c3ae406de6.png'/>
+        <img alt='agencyQ' src= {require('../src/assets/agencyq.jpg')}/>
           </a>
           <p className='exp-desc q'>While at agencyQ I learned how to work in an agile environment 
           and was involved in redesigning the company website using Hubspot  CMS.
@@ -312,7 +311,7 @@ class Experience extends React.Component{
         </div>  
          <div className='exp'>
         <a href='https://midamedical.org/' target='_blank'>
-        <img alt='MidaMedical' className='mida' src='https://midamedical.org/static/media/logo.8b7d81c0.png'/>
+        <img alt='MidaMedical' className='mida' src={require('../src/assets/logo.8b7d81c0.png')}/>
          
           <span className='midamed'> MIDA</span></a>  
           <p className='exp-desc'>At MIDA I learned how to effectively use git for projects while working in a remote team communicating via Slack. I helped modify the company website written in React.js, wrote some unit tests, created process documentation for React components, 
@@ -412,14 +411,14 @@ class Footer extends React.Component{
          <span className='cell '>
           <a href="tel:240-704-2290">
           <img  alt='phone icon'
-          src={require('/Users/tofik-umd/Desktop/portfolio/src/assets/phone-icon-circle-white.png')}/>
+          src={require('../src/assets/phone-icon-circle-white.png')}/>
           <a className='phone'>240-704-2290</a>
           </a></span>
            
           <span className='emaill'>
           <a href="mailto:aquat3@gmail.com">
           <img  alt='email icon'
-          src='https://unite-production.s3.amazonaws.com/tenants/firstlutheran/pictures/113451/stjem_orig.png'/>
+          src={require('../src/assets/email-icon.png')}/>
           <a className='email'>aquat3@gmail.com</a>
           </a></span>
           </li>
@@ -433,17 +432,17 @@ class Footer extends React.Component{
            
           <a href='https://codepen.io/aquat3/' target='_blank'> 
           <img  alt='codepen icon'
-          src='https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png'/>
+          src={require('../src/assets/codepen.png')}/>
            </a>
 
             <a href='https://github.com/aquat3/' target='_blank'>
             <img  alt='github icon'
-            src='https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg'/>
+            src={require('../src/assets/github-icon-png-29.jpg')}/>
               </a>
            
              <a href='https://www.linkedin.com/in/tofik-mahdi-280b5a139/' target='_blank'>
               <img  alt='linkedin icon'
-              src='https://www.igbaffiliate.com/sites/all/themes/clarion_theme/images/linkedin.png'/>
+              src={require('../src/assets/linkedin.png')}/>
                </a>
            </li>
            <li  className='copyright-mobile'>Copyright © Tofik Mahdi 2019
