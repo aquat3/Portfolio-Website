@@ -273,12 +273,22 @@ h2{
    margin:auto;
 }
 .proj{
-   border:5px solid #93d7ff;
-  height:300px;
-  width:300px;
+   border:8px solid #93d7ff;
+  height:350px;
+  width:350px;
  margin: 50px auto;
  display:flex;
  justify-content:center;
+}
+.projectDescription{
+
+  height:130px;
+    margin-top:10px;
+  color:white;
+  padding:0px 10px;
+    border:0px solid white;
+    margin-bottom:10px;
+  /*padding:25px;*/
 }
 .proj:hover .proj-desc{
   display:block;
@@ -298,7 +308,7 @@ text-decoration:none;
 }
 .proj-desc-name{
    
-  margin-top:100px;
+  margin-top:85px;
 }
 .proj-desc img{
   display:inline-block;
@@ -324,7 +334,7 @@ text-decoration:none;
    background-size: 100% 100%;
 }
 .quotes{
-background:url('../src/assets/quotes.jpg');
+background:url('../src/assets/casestudies.jpg');
 background-repeat: no-repeat;
    background-size: 100% 100%;
 }
@@ -450,6 +460,22 @@ filter: brightness(0) invert(1);
   display:block;
    
 }*/
+
+.proj{
+  border:8px solid #93d7ff;
+ height:360px;
+ width:325px;
+margin: 50px auto;
+display:flex;
+justify-content:center;
+}
+.projectDescription{
+
+  margin-bottom:15px;
+  border:0px solid red;
+  height:145px;
+}
+
 .proj-desc{
   display:block;
 }

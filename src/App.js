@@ -109,9 +109,8 @@ class Hero extends React.Component {
 	    	 
 	    
 	    
-	    	"The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence."
 	    	 
-	    ,
+	    
 	    
 	    	"Don't watch the clock; do what it does. Keep going.",
 	    	 
@@ -342,6 +341,11 @@ class Projects extends React.Component{
                <img  alt='jQuery icon'
              src='https://caleb-ellis.github.io/assets/img/jquery.svg'/>
   </div></a>
+<div className='projectDescription'>
+This was the first project that I worked on when I first started learning Web Development.
+It's a simple calculator built using HTML, CSS, and JavaScript(jQuery).
+</div>
+
 </div>
         </div>
          <div className='proj tic'>
@@ -356,12 +360,16 @@ class Projects extends React.Component{
                <img  alt='JavScript icon'
              src='https://i.ibb.co/Y0w9cXj/js.png'/>
   </div></a>
+  <div className='projectDescription'>
+This was the second project that I worked on.
+It's a game of Tic Tac Toe built using HTML, CSS, and JavaScript without any libraries or frameworks.
+</div>
 </div>
            </div>
         <div className='proj quotes'>
-        <div className='proj-desc'><a href='https://codepen.io/aquat3/full/QPMxNL' target='_blank'>
+        <div className='proj-desc'><a href='https://www.agencyq.com/our-work' target='_blank'>
   <div className='proj-desc-name'>
-  <h3>Random Quotes</h3>
+  <h3>agencyQ Case Studies</h3>
   <hr/>
   <img  alt='html icon'
              src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
@@ -370,6 +378,11 @@ class Projects extends React.Component{
                <img  alt='JavScript icon'
              src='https://i.ibb.co/Y0w9cXj/js.png'/>
   </div></a>
+  <div className='projectDescription'>
+  I built a new template for agencyQ's case studies for client work.
+   I made sure the new template was repsonsive and could easily handle the existing 
+   case studies on the site. During my last week I completed the project and the existing case studies have now been migrated to this new format.
+</div>
 </div>
         </div>
          <div className='proj portfolio'>
@@ -385,6 +398,11 @@ class Projects extends React.Component{
                <img  alt='JavScript icon'
              src='https://png.pngtree.com/svg/20170807/react_1353124.png'/>
   </div></a>
+  <div className='projectDescription'>
+  I created my portfolio website using React and Visual Studio
+Code with Github pages for deployment. I designed the page
+myself while using other portfolios for inspiration. 
+</div>
 </div>
          </div>
     </div>
