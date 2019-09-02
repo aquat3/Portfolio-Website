@@ -483,6 +483,11 @@ justify-content:center;
   border:1px solid black;
   height:100%;
 }
+
+.proj-desc-name{
+   
+  margin-top:55px;
+}
 .projects{
    
   display:flex;
