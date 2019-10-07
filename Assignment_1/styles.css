@@ -1,0 +1,43 @@
+.header{
+    background-color:black;
+    color:white;
+     text-align:center;
+}
+.resume {
+      border:5px solid black;
+    width:60%;
+    margin:auto;
+    display:flex;
+    
+     
+}
+.work-hist{
+    
+    width:45%;
+    display:inline-block;
+    padding:10px;
+}
+.picture{
+     
+    width:45%;
+    display:inline-block;
+    padding:10px;
+    margin-right:20px;
+    line-height:20px;
+    font-family:Georgia, serif;
+}
+.picture img{
+     
+    width:50%;
+   margin:auto;
+   display:block;
+}
+.job{
+
+    font-family:arial;
+    line-height:20px;
+    background:#ebe9d7;
+    padding:10px;
+    margin-bottom:10px;
+    width:100%;
+}
