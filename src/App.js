@@ -224,8 +224,9 @@ class Home extends React.Component{
            I fell in love. After discovering my passion for web development I realized this is What I wanted 
            to do for my career.</p></ScrollAnimation >
         <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
-           <p>My skills are currently more geared towards the Front End but I plan on picking up back end tools in the future. 
-             I will take a course on Back End development with PHP and MySQL this Fall so I will have some knowledge by the time I graduate. Thank you for visiting my portfolio, I am looking forward to working
+           <p>My skills are currently more geared towards the Front End but I plan on picking up Back End tools in the future. 
+             I am currently enrolled in a FullStack Web Development course using Node.js for the Back End so I will have some knowledge by the time I graduate. 
+             Thank you for taking the time to visit my portfolio, I am looking forward to working
              with you in the future.</p>
         </ScrollAnimation >
         </div>
