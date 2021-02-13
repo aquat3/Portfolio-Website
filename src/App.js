@@ -336,11 +336,11 @@ class Projects extends React.Component{
   <h3>jQuery Calculator</h3>
   <hr/>
   <img  alt='html icon'
-             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
+             src={require('../src/assets/htmlWhite.jpg')}/>
              <img  alt='css icon'
-             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
+             src={require('../src/assets/css3-white.png')}/>
                <img  alt='jQuery icon'
-             src='https://caleb-ellis.github.io/assets/img/jquery.svg'/>
+             src={require('../src/assets/jquery.svg')}/>
   </div></a>
 <div className='projectDescription'>
 This was the first project that I worked on when I first started learning Web Development.
@@ -355,11 +355,11 @@ It's a simple calculator built using HTML, CSS, and JavaScript(jQuery).
   <h3>Tic Tac Toe</h3>
   <hr/>
   <img  alt='html icon'
-             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
+             src={require('../src/assets/htmlWhite.jpg')}/>
              <img  alt='css icon'
-             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
+             src={require('../src/assets/css3-white.png')}/>
                <img  alt='JavScript icon'
-             src='https://i.ibb.co/Y0w9cXj/js.png'/>
+             src={require('../src/assets/js.jpg')}/>
   </div></a>
   <div className='projectDescription'>
 This was the second project that I worked on.
@@ -373,11 +373,11 @@ It's a game of Tic Tac Toe built using HTML, CSS, and JavaScript without any lib
   <h3>agencyQ Case Studies</h3>
   <hr/>
   <img  alt='html icon'
-             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
+             src={require('../src/assets/htmlWhite.jpg')}/>
              <img  alt='css icon'
-             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
+             src={require('../src/assets/css3-white.png')}/>
                <img  alt='JavScript icon'
-             src='https://i.ibb.co/Y0w9cXj/js.png'/>
+             src={require('../src/assets/js.jpg')}/>
   </div></a>
   <div className='projectDescription'>
   I built a new template for agencyQ's case studies for client work.
@@ -393,11 +393,11 @@ It's a game of Tic Tac Toe built using HTML, CSS, and JavaScript without any lib
   <h3>Portfolio Website</h3>
   <hr/>
   <img  alt='html icon'
-             src='http://aux.iconspalace.com/uploads/17575329542047224463.png'/>
+             src={require('../src/assets/htmlWhite.jpg')}/>
              <img  alt='css icon'
-             src='https://www.icustomweb.com/icw-content/uploads/2018/01/css3-white.png'/>
+             src={require('../src/assets/css3-white.png')}/>
                <img  alt='JavScript icon'
-             src='https://png.pngtree.com/svg/20170807/react_1353124.png'/>
+             src={require('../src/assets/React.js_logo-512.png')}/>
   </div></a>
   <div className='projectDescription'>
   I created my portfolio website using React and Visual Studio
