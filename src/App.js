@@ -484,7 +484,7 @@ class Portfolio extends React.Component{
    render(){
     return(
     <div>
-         <Home/>
+         <Home className='home'/>
       
          <div className='main-content'>
          <ScrollAnimation animateOnce={true} animateIn='zoomIn' duration={0.3}>
