@@ -1,3 +1,7 @@
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+
 class AboutLeft extends React.Component{
     render(){
     return(
@@ -59,3 +63,5 @@ class AboutLeft extends React.Component{
      }
     
   }
+
+  export default About;

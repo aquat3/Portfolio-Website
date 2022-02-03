@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 
 class Nav extends React.Component {
@@ -182,3 +182,5 @@ class Nav extends React.Component {
         );
      }
   }
+
+  export default Home;
