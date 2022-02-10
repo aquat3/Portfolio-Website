@@ -8,7 +8,7 @@ class AboutLeft extends React.Component{
       <div className='aboutLeft'>
       
       <img  //src='https://images.unsplash.com/photo-1539418561314-565804e349c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
-      src ={require('../src/assets/umdLogo.jpg')}
+      src ={require('../assets/umdLogo.jpg')}
       alt='University of Maryland Mascot'
       />
        

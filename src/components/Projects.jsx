@@ -1,4 +1,5 @@
 import React from 'react';
+
 class Projects extends React.Component{
   
  
@@ -11,11 +12,11 @@ class Projects extends React.Component{
    <h3>jQuery Calculator</h3>
    <hr/>
    <img  alt='html icon'
-              src={require('../src/assets/htmlWhite.jpg')}/>
+              src={require('../assets/htmlWhite.jpg')}/>
               <img  alt='css icon'
-              src={require('../src/assets/css3-white.png')}/>
+              src={require('../assets/css3-white.png')}/>
                 <img  alt='jQuery icon'
-              src={require('../src/assets/jquery.svg')}/>
+              src={require('../assets/jquery.svg')}/>
    </div></a>
  <div className='projectDescription'>
  This was the first project that I worked on when I first started learning Web Development.
@@ -30,11 +31,11 @@ class Projects extends React.Component{
    <h3>Tic Tac Toe</h3>
    <hr/>
    <img  alt='html icon'
-              src={require('../src/assets/htmlWhite.jpg')}/>
+              src={require('../assets/htmlWhite.jpg')}/>
               <img  alt='css icon'
-              src={require('../src/assets/css3-white.png')}/>
+              src={require('../assets/css3-white.png')}/>
                 <img  alt='JavScript icon'
-              src={require('../src/assets/js.jpg')}/>
+              src={require('../assets/js.jpg')}/>
    </div></a>
    <div className='projectDescription'>
  This was the second project that I worked on.
@@ -48,11 +49,11 @@ class Projects extends React.Component{
    <h3>agencyQ Case Studies</h3>
    <hr/>
    <img  alt='html icon'
-              src={require('../src/assets/htmlWhite.jpg')}/>
+              src={require('../assets/htmlWhite.jpg')}/>
               <img  alt='css icon'
-              src={require('../src/assets/css3-white.png')}/>
+              src={require('../assets/css3-white.png')}/>
                 <img  alt='JavScript icon'
-              src={require('../src/assets/js.jpg')}/>
+              src={require('../assets/js.jpg')}/>
    </div></a>
    <div className='projectDescription'>
    I built a new template for agencyQ's case studies for client work.
@@ -68,11 +69,11 @@ class Projects extends React.Component{
    <h3>Portfolio Website</h3>
    <hr/>
    <img  alt='html icon'
-              src={require('../src/assets/htmlWhite.jpg')}/>
+              src={require('../assets/htmlWhite.jpg')}/>
               <img  alt='css icon'
-              src={require('../src/assets/css3-white.png')}/>
-                <img  alt='JavScript icon'
-              src={require('../src/assets/React.js_logo-512.png')}/>
+              src={require('../assets/css3-white.png')}/>
+                <img  alt='React icon'
+              src={require('../assets/React.js_logo-512.png')}/>
    </div></a>
    <div className='projectDescription'>
    I created my portfolio website using React and Visual Studio
