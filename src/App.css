@@ -222,13 +222,13 @@ h2{
     width: 80%;
     margin-right: 10px;
     opacity: 0;
-    margin: 20px auto;
+    margin: 10% auto;
     padding: 10px;
     background: #93d7ff;
     color: white;
     text-align:center;
   }
-  .toolIcon:hover{
+  .skills-carousel-item:hover .toolIcon{
   opacity:1;
 }
 
