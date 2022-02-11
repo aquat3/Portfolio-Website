@@ -188,6 +188,21 @@ h2{
 .skills-carousel-item{
   width: 50%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel .slide img {
+  vertical-align: middle;
+  border: 0;
+  width: 50% !important;
+  margin: auto;
+  max-height: 160px;
+}
+
+.carousel .thumb img {
+  vertical-align: top;
+  min-height: 80px;
 }
 
 .skills li{
@@ -205,11 +220,13 @@ h2{
  
   .toolIcon{
     width: 80%;
-    height: 80px;
     margin-right: 10px;
     opacity: 0;
-    margin: auto;
+    margin: 20px auto;
     padding: 10px;
+    background: #93d7ff;
+    color: white;
+    text-align:center;
   }
   .toolIcon:hover{
   opacity:1;

@@ -8,7 +8,7 @@ class Skills extends React.Component{
      return(
       <Carousel className="skills-carousel">
           <div className="skills-carousel-item">
-         <img 
+         <img
               alt='html icon'
                src={require('../assets/html5.png')}/>
           <p className="toolIcon">HTML5</p>
@@ -16,7 +16,7 @@ class Skills extends React.Component{
          <div className="skills-carousel-item"><img 
                
               alt='css icon'
-                src={require('../assets/css3.png')} />
+                src={require('../assets/css.png')} />
            <p className="toolIcon">
            CSS3</p>
          </div>
@@ -29,10 +29,17 @@ class Skills extends React.Component{
           <div className="skills-carousel-item"><img src={require('../assets/ReactJs.png')}  alt='React.js icon'/>
           <p className="toolIcon">React</p>
           </div>
-          <div className="skills-carousel-item"><img src={require('../assets/Sql_data_base_with_logo.png')}  alt='MySQL icon'/>
-          <p className="toolIcon">MySQL</p>
+          <div className="skills-carousel-item"><img src={require('../assets/sql.jpg')}  alt='sql database icon'/>
+          <p className="toolIcon">SQL</p>
+          </div>
+          <div className="skills-carousel-item"><img src={require('../assets/java.jpg')}  alt='Java icon'/>
+          <p className="toolIcon">Java</p>
+          </div>
+          <div className="skills-carousel-item"><img src={require('../assets/mongodb.png')}  alt='MongoDB icon'/>
+          <p className="toolIcon">MongoDB</p>
           </div>
                </Carousel>
+               
     
      );
      
