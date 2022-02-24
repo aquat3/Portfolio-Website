@@ -7,9 +7,9 @@ class AboutLeft extends React.Component{
     return(
       <div className='aboutLeft'>
       
-      <img  //src='https://images.unsplash.com/photo-1539418561314-565804e349c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
-      src ={require('../assets/umdLogo.jpg')}
-      alt='University of Maryland Mascot'
+      <img  
+      src ={require('../assets/Tofik.jpeg')}
+      alt='Professional Headshot of Tofik Mahdi'
       />
        
     </div>
@@ -27,18 +27,15 @@ class AboutLeft extends React.Component{
         <div class='bio'>
           
         <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
-          <p>Hello World, my name is Tofik Mahdi and I am a senior at the Univeristy of 
-            Maryland graduating this December. I love the internet and I plan on 
-            leaving a digital footprint in it.</p></ScrollAnimation >
+          <p>Hello World, my name is Tofik Mahdi and I am a software developer with 3 years of experience who loves finding innovative solutions to solve everyday problems.</p></ScrollAnimation >
           
-          <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}><p>I started programming since I was 17 in C++, but I eventually picked up web development 
-            a couple years later after being curious as to how websites work and
-             I fell in love. After discovering my passion for web development I realized this is What I wanted 
+          <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}><p>I have been programming since I was 17 with C++, but eventually picked up web development 
+             after being curious as to how websites work and
+             I fell in love. After discovering my passion for coding I realized this is What I wanted 
              to do for my career.</p></ScrollAnimation >
           <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
-             <p>My skills are currently more geared towards the Front End but I plan on picking up Back End tools in the future. 
-               I am currently enrolled in a FullStack Web Development course using Node.js for the Back End so I will have some knowledge by the time I graduate. 
-               Thank you for taking the time to visit my portfolio, I am looking forward to working
+             <p>I am currently employed at Deloitte Consulting as a Solution Specialist with a focus on Java. 
+               Thank you for taking the time to visit my portfolio, I look forward to working
                with you in the future.</p>
           </ScrollAnimation >
           </div>

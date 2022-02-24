@@ -19,13 +19,13 @@ class Footer extends React.Component{
            </a></span>
             
            <span className='emaill'>
-           <a href="mailto:aquat3@gmail.com">
+           <a href="mailto:tofikmahdi@gmail.com">
            <img  alt='email icon'
            src={require('../assets/email-icon.png')}/>
-           <a className='email'>aquat3@gmail.com</a>
+           <a className='email'>tofikmahdi@gmail.com</a>
            </a></span>
            </li>
-             <li className='copyright'>Copyright © Tofik Mahdi 2019
+             <li className='copyright'>Copyright © Tofik Mahdi 2022
  </li>
          </ul>  
           <ul className='rightFoot'>
@@ -48,7 +48,7 @@ class Footer extends React.Component{
                src={require('../assets/linkedin.png')}/>
                 </a>
             </li>
-            <li  className='copyright-mobile'>Copyright © Tofik Mahdi 2019
+            <li  className='copyright-mobile'>Copyright © Tofik Mahdi 2022
  </li>
          </ul>
      </div>

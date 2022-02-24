@@ -147,18 +147,20 @@ h2{
   display:inline-block;
   text-align:left;
    
-  border:0px solid red;
+  
   
     padding-right:30px;
 }
 .bio{
-  border:0px solid green;
-  width:70%;
-  float:right;
-  font-size:1.2rem;
-  margin:25px 0px;
-  line-height:30px;
-  font-size:1rem;
+  width: 80%;
+    float: right;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-size: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
    
 }
 .bio p{
@@ -388,14 +390,12 @@ background:#93d7ff;
   width:100vw;
 }
 .leftFoot{
-  border:0px solid black;
-  width:45%;
+  width:50%;
   display:inline-block;
   list-style:none;
    
 }
 .leftFoot li{
-  border:0px solid red;
   text-align:center;
 }
 .leftFoot h3{
@@ -445,8 +445,7 @@ filter: brightness(0) invert(1);
   text-decoration:underline;
 }
 .rightFoot{
-  border:0px solid red;
-  width:40%;
+  width:50%;
   display:inline-block;
   float:right;
   list-style:none;
