@@ -204,7 +204,7 @@ h2{
 
 .carousel .thumb img {
   vertical-align: top;
-  min-height: 80px;
+  min-height: 50px;
 }
 
 button.control-arrow {
@@ -216,7 +216,14 @@ button.control-arrow {
 .carousel .thumbs-wrapper {
   margin: 20px;
   overflow: hidden;
-  width: 80%;
+  width: 84%;
+}
+
+.carousel .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 50%;
+  transition: height .15s ease-in;
 }
 
 .skills li{
