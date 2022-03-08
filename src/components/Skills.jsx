@@ -35,6 +35,9 @@ class Skills extends React.Component{
           <div className="skills-carousel-item"><img src={require('../assets/java.jpg')}  alt='Java icon'/>
           <p className="toolIcon">Java</p>
           </div>
+          <div className="skills-carousel-item"><img src={require('../assets/python.jpg')}  alt='Java icon'/>
+          <p className="toolIcon">Python</p>
+          </div>
           <div className="skills-carousel-item"><img src={require('../assets/mongodb.png')}  alt='MongoDB icon'/>
           <p className="toolIcon">MongoDB</p>
           </div>

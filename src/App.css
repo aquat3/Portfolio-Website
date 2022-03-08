@@ -131,7 +131,7 @@ h2{
   
   /*height:500px;*/
   min-height:250px;
-  width:70%;
+  width:50%;
    float:right;
 }
 .aboutLeft{
@@ -205,6 +205,18 @@ h2{
 .carousel .thumb img {
   vertical-align: top;
   min-height: 80px;
+}
+
+button.control-arrow {
+  background: #93d7ff !important;
+  padding:10px;
+  margin: 0px 50px;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 20px;
+  overflow: hidden;
+  width: 80%;
 }
 
 .skills li{
