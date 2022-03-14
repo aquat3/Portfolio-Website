@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.92593983.css",
+    "main.css": "/Portfolio-Website/static/css/main.4dc79fd1.css",
     "main.js": "/Portfolio-Website/static/js/main.d64c42a6.js",
     "static/media/portfoliopic.png": "/Portfolio-Website/static/media/portfoliopic.65b486c0579fe0c7eadd.png",
     "static/media/cherryblossom2.jpeg": "/Portfolio-Website/static/media/cherryblossom2.3e39992c37ab7032e393.jpeg",
@@ -22,11 +22,11 @@
     "static/media/phone-icon-circle-white.png": "/Portfolio-Website/static/media/phone-icon-circle-white.a2b86a07ee245dcc9ef7.png",
     "static/media/mongodb.png": "/Portfolio-Website/static/media/mongodb.940824112db2f1788f28.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.92593983.css.map": "/Portfolio-Website/static/css/main.92593983.css.map",
+    "main.4dc79fd1.css.map": "/Portfolio-Website/static/css/main.4dc79fd1.css.map",
     "main.d64c42a6.js.map": "/Portfolio-Website/static/js/main.d64c42a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.92593983.css",
+    "static/css/main.4dc79fd1.css",
     "static/js/main.d64c42a6.js"
   ]
 }
