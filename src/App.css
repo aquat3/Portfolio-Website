@@ -29,7 +29,7 @@ html, body {
 .hero {
      width:100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/assets/cherryblossom.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/assets/cherryblossom2.jpeg');
    background-repeat: no-repeat;
    background-size: 100% 100%;
    text-align:center;
@@ -188,10 +188,14 @@ h2{
 }
 
 .skills-carousel-item{
-  width: 50%;
+  width: 35%;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover {
+  border: 3px solid #93d7ff !important;
 }
 
 .carousel .slide img {
@@ -295,17 +299,21 @@ button.control-arrow {
 }
  
 .q{
-  margin-top:80px;
+  margin-top: 50px;
 }
 .exp{
-   
-  margin-bottom:15px;
+  margin-bottom:5%;
 }
-.exp img{
-  max-width:20%;
-  max-height:300px;
-   
+.exp img {
+  max-width: 10%;
+  max-height: 300px;
+  margin-left: 10%;
 }
+
+#deloitte-exp {
+  margin-top: 40px;
+}
+
 .mida{
   width:100px;
   height:60px;
@@ -339,7 +347,7 @@ button.control-arrow {
 }
 .projectDescription{
 
-  height:130px;
+  height:135px;
     margin-top:10px;
   color:white;
   padding:0px 10px;

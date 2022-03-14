@@ -9,9 +9,12 @@ class Experience extends React.Component{
          
          
          <a href='https://www2.deloitte.com/us/en.html' target='_blank'>
-         <img alt='deloitte' src= {require('../assets/deloitte.png')}/>
+         <img id='deloitte-exp' class= 'exp-img' alt='deloitte' src= {require('../assets/deloitte.png')}/>
            </a>
-           <p className='exp-desc q'>Lorem Ipsum delta alpha </p>
+           <p className='exp-desc q'>Deloitte is a multinational professional services 
+           network with offices in over 150 countries and territories around the world. I currently work
+           with Deloitte Consulting as a Solution Specialist with roles varying from Java to Python development.
+           </p>
            
          </div> 
 
@@ -19,11 +22,11 @@ class Experience extends React.Component{
          
          
          <a href='https://tistatech.com/' target='_blank'>
-         <img alt='tista' src= {require('../assets/tista.jpg')}/>
+         <img class= 'exp-img' alt='tista' src= {require('../assets/tista.png')}/>
            </a>
            <p className='exp-desc q'>TISTA was my first job after graduating college. While there, I worked
-           onsite at the client CCDC Army Research Lab Adelphi Laboratory Center. I worked as a developer on a fullstack application running
-           on Java Springboot. </p>
+           onsite at out client CCDC Army Research Lab Adelphi Laboratory Center where I worked as a developer on a Fullstack application running
+           on Java Springboot. I also deployed applications to our server using CI/CD via gitlab. </p>
            
          </div> 
 
@@ -31,7 +34,7 @@ class Experience extends React.Component{
          
          
          <a href='https://www.agencyq.com/' target='_blank'>
-         <img alt='agencyQ' src= {require('../assets/agencyq.jpg')}/>
+         <img class= 'exp-img' alt='agencyQ' src= {require('../assets/agencyq.jpg')}/>
            </a>
            <p className='exp-desc q'>While at agencyQ I learned how to work in an agile environment 
            and was involved in redesigning the company website using Hubspot  CMS.
@@ -41,7 +44,7 @@ class Experience extends React.Component{
          </div>  
           <div className='exp'>
          <a href='https://midamedical.org/' target='_blank'>
-         <img alt='MidaMedical' className='mida' src={require('../assets/logo.8b7d81c0.png')}/>
+         <img class= 'exp-img' alt='MidaMedical' className='mida' src={require('../assets/logo.8b7d81c0.png')}/>
           
            <span className='midamed'> MIDA</span></a>  
            <p className='exp-desc'>At MIDA I learned how to effectively use git for projects while working in a remote team communicating via Slack. I helped modify the company website written in React.js, wrote some unit tests, created process documentation for React components, 

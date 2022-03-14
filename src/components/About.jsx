@@ -35,7 +35,7 @@ class AboutLeft extends React.Component{
              to do for my career.</p></ScrollAnimation >
           <ScrollAnimation animateOnce={true} animateIn='slideInRight' duration={0.3}>
              <p>I am currently employed at Deloitte Consulting as a Solution Specialist with a focus on Java. 
-               Thank you for taking the time to visit my portfolio, I look forward to working
+               As of now I am currently unavailable on the job market. Thank you for taking the time to visit my portfolio, I look forward to working
                with you in the future.</p>
           </ScrollAnimation >
           </div>

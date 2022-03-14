@@ -16,7 +16,7 @@ class Projects extends React.Component{
               <img  alt='css icon'
               src={require('../assets/css3-white.png')}/>
                 <img  alt='jQuery icon'
-              src={require('../assets/jquery.svg')}/>
+              src={require('../assets/jquerywhite.jpg')}/>
    </div></a>
  <div className='projectDescription'>
  This was the first project that I worked on when I first started learning Web Development.
