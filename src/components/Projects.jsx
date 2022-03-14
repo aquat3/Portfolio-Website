@@ -57,8 +57,8 @@ class Projects extends React.Component{
    </div></a>
    <div className='projectDescription'>
    I built a new template for agencyQ's case studies for client work.
-    I made sure the new template was repsonsive and could easily handle the existing 
-    case studies on the site. During my last week I completed the project and the existing case studies have now been migrated to this new format.
+    I ensured that the new template was repsonsive and could easily handle the existing 
+    case studies on the site. 
  </div>
  </div>
          </div>
