@@ -424,6 +424,7 @@ background:#93d7ff;
 }
 .leftFoot li{
   text-align:center;
+  width: 100%;
 }
 .leftFoot h3{
   text-align:center;
@@ -510,8 +511,13 @@ filter: brightness(0) invert(1);
    }
  @media screen and (max-width: 825px){
 
+  .carousel .control-arrow{
+    display:none;
+  }
 
-
+  .exp img {
+    width:35%;
+  }
 
   .hero{
   position:relative;
