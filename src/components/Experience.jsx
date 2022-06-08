@@ -26,7 +26,7 @@ class Experience extends React.Component{
            </a>
            <p className='exp-desc q'>TISTA was my first job after graduating college. While there, I worked
            onsite at out client CCDC Army Research Lab Adelphi Laboratory Center where I worked as a developer on a Fullstack application running
-           on Java Springboot. I also deployed applications to our server using CI/CD via gitlab. </p>
+           on Java Springboot. I also deployed applications to our server using CI/CD via Gitlab. </p>
            
          </div> 
 
@@ -36,8 +36,8 @@ class Experience extends React.Component{
          <a href='https://www.agencyq.com/' target='_blank'>
          <img class= 'exp-img' alt='agencyQ' src= {require('../assets/agencyq.jpg')}/>
            </a>
-           <p className='exp-desc q'>While at agencyQ I learned how to work in an agile environment 
-           and was involved in redesigning the company website using Hubspot  CMS.
+           <p className='exp-desc q'>While at agencyQ, I learned how to work in an agile environment 
+           and was involved in redesigning the company website using Hubspot CMS.
             I also assisted other Front End developers with their projects via pair programming, translated UX wireframes into code, and 
             performed cross browser testing for the site.</p>
            
